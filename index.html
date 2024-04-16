@@ -13,7 +13,7 @@
     let n = 4;
     let time = 10;
 
-    let amount = principalAmount * (1+(rateOfInterest/time))** (n*time);
+    let amount = principalAmount *  Math.pow((1+(rateOfInterest/time)) ,(n*time));
    console.log(` On ₹${principalAmount} Compound Interest : ₹ ${amount} `)
      </script>
 </body>
